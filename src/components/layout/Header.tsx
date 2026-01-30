@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../ui/button';
+import crownImg from "../../assets/images/crown.png";
 
 const Header: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Header: React.FC = () => {
       <header className="header">
         <div className="brand">
           <div>
-            <img src="../../assets/images/crown.png" width="80px" />
+            <img src={crownImg} width="80px" />
           </div>
           <h3 className="hotel-heading">Grand Hotel</h3>
         </div>
