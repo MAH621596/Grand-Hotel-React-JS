@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <header className="header">
         <div className="brand">
           <div>
-            <img src="/src/assets/images/crown.png" width="80px" />
+            <img src="../../assets/images/crown.png" width="80px" />
           </div>
           <h3 className="hotel-heading">Grand Hotel</h3>
         </div>
