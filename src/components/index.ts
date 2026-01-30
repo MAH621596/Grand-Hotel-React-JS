@@ -1,0 +1,10 @@
+export { default as Header } from "./layout/Header";
+export { default as Footer } from "./layout/Footer";
+export { default as Sidebar } from "./layout/Sidebar";
+export { default as MainLayout } from "./layout/MainLayout";
+export { default as About } from "./sections/About";
+export { default as Info } from "./sections/Info";
+export { default as Rooms } from "./sections/Rooms";
+export { default as Customers } from "./sections/Customers";
+export { Card } from "./ui/card";
+export { Button } from "./ui/button";
